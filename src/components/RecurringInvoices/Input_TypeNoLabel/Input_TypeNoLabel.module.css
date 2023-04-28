@@ -1,0 +1,22 @@
+.root {
+  height: min-content;
+  flex: 1;
+  flex-direction: column;
+}
+.mainButton {
+  height: min-content;
+  align-self: stretch;
+  padding: 16px 20px;
+  border-radius: 5px;
+  background-color: #f1f1f1;
+}
+.placeholderText {
+  color: #979797;
+  font-size: 16px;
+  font-family: DM Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}

@@ -1,0 +1,27 @@
+.icon {
+  width: 100%;
+  height: 100%;
+}
+.root {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: min-content;
+  height: min-content;
+  place-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 21px 41px;
+  border-radius: 5px;
+  background-color: #5562dd;
+}
+.clickMe {
+  color: #fff;
+  font-size: 16px;
+  font-family: DM Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
